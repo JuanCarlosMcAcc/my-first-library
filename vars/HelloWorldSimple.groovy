@@ -4,3 +4,7 @@ def funcion1(String name, String surname, String second_surname) {
     and my last surname is ${second_surname}.
     """
 }
+
+def funcion2(String name) {
+    echo """Esta es la funcion2 el valor del parametro es ${name}"""
+}
