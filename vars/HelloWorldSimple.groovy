@@ -1,4 +1,3 @@
-def call(String name){
-    sh "echo Hello World my name is ${name}"
-    sh "echo Funciona :)"
+def call(String name) {
+    echo "Hello world, ${name}."  
 }
