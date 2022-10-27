@@ -1,10 +1,10 @@
-def funcion1(String name, String surname, String second_surname) {
+funcion1(String name, String surname, String second_surname) {
     echo """    Hello world, my name is ${name}, 
     my first surname is ${surname} 
     and my last surname is ${second_surname}.
     """
 }
 
-def funcion2(String name) {
+funcion2(String name) {
     echo """Esta es la funcion2 el valor del parametro es ${name}"""
 }
