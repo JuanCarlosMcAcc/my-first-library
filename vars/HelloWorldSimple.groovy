@@ -5,6 +5,6 @@ funcion1(String name, String surname, String second_surname) {
     """
 }
 
-funcion2(String name) {
-    echo """Esta es la funcion2 el valor del parametro es ${name}"""
+funcion2(String parametro) {
+    echo """Esta es la funcion2 el valor del parametro es ${parametro}"""
 }
