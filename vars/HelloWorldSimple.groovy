@@ -1,6 +1,6 @@
-def call(String name, String apellido, String segundo_apellido) {
+def call(String name, String surname, String second_surname) {
     echo """    Hello world, my name is ${name}, 
-    my first surname is ${apellido} 
-    and my last surname is ${segundo_apellido}.
+    my first surname is ${surname} 
+    and my last surname is ${second_surname}.
     """  
 }
