@@ -10,6 +10,8 @@ def call (){
             ])
         }
         echo entorno
-        return entorno
+        
     }
+    echo entorno
+    return entorno
 }
