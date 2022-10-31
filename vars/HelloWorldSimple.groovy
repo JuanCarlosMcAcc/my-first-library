@@ -7,6 +7,7 @@ def call(String name, String surname, String second_surname) {
 
 def call(String parametro) {
     echo """Esta es la funcion2 el valor del parametro es ${parametro}"""
+    sh "ls"
 }
 
 def call(int numero){
