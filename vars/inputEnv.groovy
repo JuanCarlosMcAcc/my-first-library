@@ -7,10 +7,7 @@ def call (){
                 choices: ["INT", "PRE", "PRO"].join('\n'),
                 name   : 'Please, choose selection']
             ])
-        }
-        echo entorno
-        
+        }        
     }
-    echo entorno
     return entorno
 }
