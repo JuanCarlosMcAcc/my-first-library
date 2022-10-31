@@ -1,4 +1,4 @@
-def call (String ){
+def call (){
         catchError(buildResult: 'SUCCESS', stageResult: 'SUCCESS', catchInterruptions: true) {
         timeout(time: 2, unit: 'MINUTES') {
             entorno = input(message: 'Elige el entorno de produccion',
