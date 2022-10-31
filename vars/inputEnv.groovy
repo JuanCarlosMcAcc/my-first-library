@@ -8,6 +8,7 @@ def call (String entorno){
                 name   : 'Please, choose selection']
             ])
         }
+        echo entorno
         return entorno
     }
 }
