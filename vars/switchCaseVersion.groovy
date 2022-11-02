@@ -1,6 +1,6 @@
 def call(String entorno){
     def resultado = new StringBuilder()
-    def comando = "grep ${entorno} release.yml".execute() 
-    echo "La version es ${comando}"
+    resultado = "grep ${entorno} release.yml".execute() 
+    echo "La version es ${resultado}"
     // sh ("grep ${entorno} release.yml")
 }
