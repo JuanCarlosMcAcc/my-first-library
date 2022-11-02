@@ -1,4 +1,4 @@
 def call(String entorno){   
-    result = sh ("grep ${entorno} release.yml")
+    result=$(grep ${entorno} release.yml)
     echo result
 }
