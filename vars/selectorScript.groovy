@@ -13,10 +13,10 @@ def call (String NOMBRE, int CONTADOR){
     switch(script) {
         case "Script Contador":
             sh "ls"
-            sh "script1.sh $CONTADOR"
+            sh "bash script1.sh $CONTADOR"
         break
         case "Script Nombre":
-            sh "script2.sh $NOMBRE"
+            sh "bash script2.sh $NOMBRE"
         break
     }
     return script
