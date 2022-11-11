@@ -1,10 +1,11 @@
 def call (String NOMBRE, CONTADOR){
         catchError(buildResult: 'SUCCESS', stageResult: 'SUCCESS', catchInterruptions: true) {
-        timeout(time: 2, unit: 'MINUTES') {
+        timeout(time: 15, unit: 'SECONDS') {
             script = input(message: 'Elige el script a ejecutar',
                 parameters: [
                 [$class : 'ChoiceParameterDefinition',
                 choices: ["Script Contador", "Script Nombre"].join('\n'),
+                default: "Script Contador",
                 name   : 'Please, choose selection']
             ])
         }
