@@ -9,5 +9,15 @@ def call (){
             ])
         }
     }
+    
+    switch(script) {
+        case "Script Contador":
+            script = "script1.sh 12"
+        break
+        case "Script Nombre":
+            script = "script2.sh JuanCarlos"
+        break
+    }
     return script
+
 }
