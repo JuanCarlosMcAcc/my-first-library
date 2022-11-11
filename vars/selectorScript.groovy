@@ -1,4 +1,4 @@
-def call (String NOMBRE, int CONTADOR){
+def call (String NOMBRE, CONTADOR){
         catchError(buildResult: 'SUCCESS', stageResult: 'SUCCESS', catchInterruptions: true) {
         timeout(time: 2, unit: 'MINUTES') {
             script = input(message: 'Elige el script a ejecutar',
