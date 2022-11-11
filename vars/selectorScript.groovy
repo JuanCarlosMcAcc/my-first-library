@@ -1,4 +1,4 @@
-def call (){
+def call (String NOMBRE, Int CONTADOR){
         catchError(buildResult: 'SUCCESS', stageResult: 'SUCCESS', catchInterruptions: true) {
         timeout(time: 2, unit: 'MINUTES') {
             script = input(message: 'Elige el script a ejecutar',
@@ -12,10 +12,10 @@ def call (){
     
     switch(script) {
         case "Script Contador":
-            script = "script1.sh"
+            sh "script1.sh $CONTADOR"
         break
         case "Script Nombre":
-            script = "script2.sh"
+            sh "script2.sh $NOMBRE"
         break
     }
     return script
