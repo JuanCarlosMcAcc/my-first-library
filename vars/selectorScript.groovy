@@ -12,10 +12,10 @@ def call (){
     
     switch(script) {
         case "Script Contador":
-            script = "script1.sh 12"
+            script = "script1.sh"
         break
         case "Script Nombre":
-            script = "script2.sh JuanCarlos"
+            script = "script2.sh"
         break
     }
     return script
