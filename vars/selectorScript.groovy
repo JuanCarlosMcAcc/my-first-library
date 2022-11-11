@@ -5,7 +5,7 @@ def call (String NOMBRE, CONTADOR){
                 parameters: [
                 [$class : 'ChoiceParameterDefinition',
                 choices: ["Script Contador", "Script Nombre"].join('\n'),
-                default: "Script Contador",
+                defaultValue: "Script Contador",
                 name   : 'Please, choose selection']
             ])
         }
